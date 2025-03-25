@@ -55,7 +55,7 @@ button:disabled {
   border-radius: 5px;
   position: fixed;
   bottom: 300px;
-  left: 50%;
+  left: 25px;
   transform: translateX(-50%); 
 }
 
