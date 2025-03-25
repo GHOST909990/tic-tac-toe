@@ -54,8 +54,8 @@ button:disabled {
   border: none;
   border-radius: 5px;
   position: fixed;
-  bottom: 300px;
-  left: 25px;
+  bottom: 230px;
+  left: 50%;
   transform: translateX(-50%); 
 }
 
@@ -70,8 +70,8 @@ button:disabled {
     font-size: 1rem;
     padding: 8px 16px;
     position: relative;
-    top: 100px;
-    left: 50px;
+    top: 50px;
+    left: 25%;
   }
 }
 
@@ -80,5 +80,18 @@ button:disabled {
     width: 90px;
     height: 90px;
     font-size: 1.8rem;
+  }
+
+  .row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  #restart {
+    position: relative;
+    top: 50px;
+    left: 90px;
   }
 }
