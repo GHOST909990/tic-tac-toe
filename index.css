@@ -95,9 +95,4 @@ button:disabled {
     left: 90px;
   }
 }
-@media screen  and (min-width: 1200px) {
-  #restart {
-    position: relative;
-    top: 400px;
-  }
-}
+
