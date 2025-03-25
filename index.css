@@ -69,7 +69,8 @@ button:disabled {
   #restart {
     font-size: 1rem;
     padding: 8px 16px;
-    margin-top: 500px;
+    position: relative;
+    top: 500px;
   }
 }
 
